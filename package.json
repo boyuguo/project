@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --config webpack.config.js -w --progress --colors",
+    "start": "webpack-dev-server --devtool eval --progress --colors"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
